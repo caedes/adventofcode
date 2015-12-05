@@ -11,4 +11,4 @@ areas = File.readlines('inputs/day2.txt').map do |line|
   2 * lw + 2 * wh + 2 * hl + [lw, wh, hl].min
 end
 
-p areas.inject { |sum, x| sum + x }
+p areas.inject { |a, e| a + e }
